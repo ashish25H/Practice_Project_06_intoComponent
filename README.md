@@ -2,7 +2,7 @@
 
 # Intro
 I built this intro component for mobile and laptops and it is responsive for various other screen sizes.
-live project link -- https://ashish25h.github.io/Practice_Project_06_intoComponent/
+live project link --  https://ashish25h.github.io/Practice_Project_06_introComponent/
 
 
 
