@@ -10,7 +10,7 @@ I used html and tailwind css in this project , i used tailwind because it is ver
 First I created mobile design.
 
 # Mobile Design
-![mobile design](./design/mobile-design.jpg)
+![mobile design](design/mobile-design.jpg)
 
 After that I started work on laptop screen size design.
 
