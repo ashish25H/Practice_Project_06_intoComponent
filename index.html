@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Intro component with sign up form</title>
+
+</head>
+
+<body class="h-[100vh]  my-[50px]  mx-[10px] bg-[#f87171] md:bg-white md:mt-[40px] mb-[0px] md:px-[50px] md:flex items-center justify-center">
+
+  <div class="flex flex-col md:bg-[#f87171] md:py-[50px] md:px-[50px] md:flex-row md:items-center">
+    <div class="text-center md:basis-1/2 md:mr-[100px] ml-[50px]">
+      <h1 class="text-white text-3xl font-bold mb-[20px] md:text-left md:text-5xl"> Learn to code by watching others</h1>
+      <p class="text-white text-sm font-normal mb-[40px] md:text-left md:text-lg md:font-light">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="flex flex-col items-center md:basis-1/2 md:mr-[50px]">
+      <div class="block py-[15px] bg-[#5b21b6] mb-[20px]  w-full rounded-lg mb-[20px]">
+        <p class="font-bold text-white text-center">Try it free 7 days then</p>
+        <p class="text-center text-white">$20/mo. thereafter</p>
+      </div>
+
+      <div class="py-[20px] px-[20px] bg-white w-full rounded-lg">
+        <form action="#" class="flex flex-col">
+          <input type="text" name="name" id="name" placeholder="First Name" class="border-2 border-[#a1a1aa] rounded p-[7px] mb-[15px]">
+          <input type="text" name="lastName" id="lastName" placeholder="Last Name" class="border-2 border-[#a1a1aa] rounded p-[7px] mb-[15px]">
+          <input type="email" name="email" id="email" placeholder="Email Address" class="border-2 border-[#a1a1aa] rounded p-[7px] mb-[15px]">
+          <input type="password" name="password" id="password" placeholder="Password" class="border-2 border-[#a1a1aa] rounded p-[7px] mb-[15px]">
+          <button class="w-full text-white bg-[#10b981] py-[12px] rounded-lg mb-[15px]">CLAIM YOUR FREE TRIAL</button>
+        </form>
+        <p class="text-center text-[#9ca3af] text-sm"> By clicking the button, you are agreeing to <br> our <span class="text-[#f87171] font-bold">Terms and Services</span></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
