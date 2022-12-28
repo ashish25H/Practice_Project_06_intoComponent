@@ -2,6 +2,7 @@
 
 # Intro
 I built this intro component for mobile and laptops and it is responsive for various other screen sizes.
+live project link -- https://ashish25h.github.io/Practice_Project_06_intoComponent/
 
 
 
@@ -10,7 +11,7 @@ I used html and tailwind css in this project , i used tailwind because it is ver
 First I created mobile design.
 
 # Mobile Design
-![mobile design](design/mobile-design.jpg)
+![mobile design](./design/mobile-design.jpg)
 
 After that I started work on laptop screen size design.
 
